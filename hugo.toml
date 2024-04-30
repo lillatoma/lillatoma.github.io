@@ -1,0 +1,5 @@
+baseURL = 'https://lillatoma.com/'
+languageCode = 'en-us'
+title = 'Lilla Toma'
+theme = 'color-your-world'
+
