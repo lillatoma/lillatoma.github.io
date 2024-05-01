@@ -5,4 +5,4 @@ draft = true
 +++
 
 # My posts so far
-- [Test](posts/test)
+- [Setting up the website](posts/1-settingup)
