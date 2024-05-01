@@ -21,9 +21,11 @@ I installed it as a submodule using the command `git submodule add https://gitla
 However, this is not yet enough. We will have to provide Hugo some snippet of information that we would like to use this theme. In the main directory of your project, you will find `hugo.toml`. 
 
 It should look something like this, by default:
-`baseURL = 'https://example.org/'
+```
+baseURL = 'https://example.org/'
 languageCode = 'en-us'
-title = 'My New Hugo Site'`
+title = 'My New Hugo Site'
+```
 
 The baseURL should be the URL to your website, including the `/` at the end of it. The rest what you see there is up to you. If you want to add a theme, you will add a new line `theme = folderName`, like `theme = color-your-world`. 
 
