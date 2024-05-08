@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Lilla Toma</title>
+    <link>http://localhost:1313/posts/</link>
+    <description></description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 30 Apr 2024 15:47:30 +0200</lastBuildDate><atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+      <item>
+        <title>Setting up the website</title>
+        <link>http://localhost:1313/posts/1-settingup/</link>
+        <pubDate>Tue, 30 Apr 2024 15:35:32 +0200</pubDate>
+        
+        <guid>http://localhost:1313/posts/1-settingup/</guid>
+        <description>Setting up this website wasn&amp;rsquo;t practically difficult. I was recommended the static website builder tool, called Hugo, which essentially makes static .html files from Markdown files. What could be hard in that, right? Well, writing the .md files are no trouble. However, maybe I did something wrong during the process of making this site, but I encountered a few issues, which I would like to share, in hopes, that you are also reading this, looking through the web to find a solution to your problem.</description>
+      </item>
+    
+  </channel>
+</rss>

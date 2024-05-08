@@ -1,6 +1,6 @@
 +++
 title = 'Setting up the website'
-date = 2024-04-30T15:35:32+02:00
+date = 2024-05-01T15:35:32+02:00
 draft = true
 +++
 
