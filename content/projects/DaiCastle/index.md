@@ -1,10 +1,9 @@
 +++
-title = 'Welcome to my website'
-date = 2024-04-30T15:47:30+02:00
+title = 'DaiCastle'
+date = 2021-08-18T15:47:30+02:00
 draft = true
 +++
 
-# DaiCastle
 
 DaiCastle is a singleplayer, 100-player battle-royale game with a huge map, complex AI, inventory system, unlockable item system, replay system, and many more.
 
