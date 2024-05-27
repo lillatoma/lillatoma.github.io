@@ -1,8 +1,9 @@
 +++
-title = 'Welcome to my website'
+title = 'Projects'
 date = 2024-04-30T15:47:30+02:00
 draft = true
 +++
 
 # My posts so far
-- [Setting up the website](posts/1-settingup)
+- [DaiCastle](projects/DaiCastle)
+- [Cell Wars](projects/Cell Wars)
