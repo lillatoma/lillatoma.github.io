@@ -8,21 +8,52 @@
     <language>en-us</language>
     <lastBuildDate>Tue, 30 Apr 2024 15:47:30 +0200</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
       <item>
-        <title>Welcome to my website</title>
-        <link>http://localhost:1313/posts/</link>
-        <pubDate>Tue, 30 Apr 2024 15:47:30 +0200</pubDate>
+        <title>About me</title>
+        <link>http://localhost:1313/about/</link>
+        <pubDate>Tue, 28 May 2024 13:47:30 +0200</pubDate>
         
-        <guid>http://localhost:1313/posts/</guid>
-        <description>My posts so far Test </description>
+        <guid>http://localhost:1313/about/</guid>
+        <description>I am Lilla Toma, my first programming project was made in 2017, in the summer right before I went to university. This project was quite broad, and I think it was way above the level of an absolute beginner. During the project, I learned a lot about data types, pointers, how to make functions, how to fix bugs I made, and a little bit about how programs work, and reverse engineering.</description>
       </item>
     
       <item>
         <title>Setting up the website</title>
         <link>http://localhost:1313/posts/1-settingup/</link>
-        <pubDate>Tue, 30 Apr 2024 15:35:32 +0200</pubDate>
+        <pubDate>Wed, 01 May 2024 15:35:32 +0200</pubDate>
         
         <guid>http://localhost:1313/posts/1-settingup/</guid>
         <description>Setting up this website wasn&amp;rsquo;t practically difficult. I was recommended the static website builder tool, called Hugo, which essentially makes static .html files from Markdown files. What could be hard in that, right? Well, writing the .md files are no trouble. However, maybe I did something wrong during the process of making this site, but I encountered a few issues, which I would like to share, in hopes, that you are also reading this, looking through the web to find a solution to your problem.</description>
+      </item>
+    
+      <item>
+        <title>Welcome to my website</title>
+        <link>http://localhost:1313/posts/</link>
+        <pubDate>Tue, 30 Apr 2024 15:47:30 +0200</pubDate>
+        
+        <guid>http://localhost:1313/posts/</guid>
+        <description>My projects Test </description>
+      </item>
+    
+      <item>
+        <title>Cell Wars</title>
+        <link>http://localhost:1313/projects/cell-wars/</link>
+        <pubDate>Tue, 07 Jun 2022 15:47:30 +0200</pubDate>
+        
+        <guid>http://localhost:1313/projects/cell-wars/</guid>
+        <description>Cell Wars was basically my first game project, written in C++, based on the concept of the game called Phage Wars. Cell Wars is a singleplayer, territory-control strategy game where the players goal is to be the only &amp;ldquo;organism&amp;rdquo; in the cells presented on the playfield.
+This project was started and finished in 2019, in roughly 1 or 2 weeks, I don&amp;rsquo;t remember exactly.
+To briefly display, what the game has to offer, here are a few links:</description>
+      </item>
+    
+      <item>
+        <title>DaiCastle</title>
+        <link>http://localhost:1313/projects/daicastle/</link>
+        <pubDate>Wed, 18 Aug 2021 15:47:30 +0200</pubDate>
+        
+        <guid>http://localhost:1313/projects/daicastle/</guid>
+        <description>DaiCastle is a singleplayer, 100-player battle-royale game with a huge map, complex AI, inventory system, unlockable item system, replay system, and many more.
+This project was started in 2019, most of the core things were done back then such as the way the map is shown, and stored, hit-reg calculations, movements, but then I had to discontinue this project unfortunately.
+In 2021, I revisited the project, and started adding many new features, that now makes the game full.</description>
       </item>
     
   </channel>

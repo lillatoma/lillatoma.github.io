@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Lilla Toma</title>
+    <link>http://localhost:1313/projects/</link>
+    <description></description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 30 Apr 2024 15:47:30 +0200</lastBuildDate><atom:link href="http://localhost:1313/projects/index.xml" rel="self" type="application/rss+xml" />
+      <item>
+        <title>Cell Wars</title>
+        <link>http://localhost:1313/projects/cell-wars/</link>
+        <pubDate>Tue, 07 Jun 2022 15:47:30 +0200</pubDate>
+        
+        <guid>http://localhost:1313/projects/cell-wars/</guid>
+        <description>Cell Wars was basically my first game project, written in C++, based on the concept of the game called Phage Wars. Cell Wars is a singleplayer, territory-control strategy game where the players goal is to be the only &amp;ldquo;organism&amp;rdquo; in the cells presented on the playfield.
+This project was started and finished in 2019, in roughly 1 or 2 weeks, I don&amp;rsquo;t remember exactly.
+To briefly display, what the game has to offer, here are a few links:</description>
+      </item>
+    
+      <item>
+        <title>DaiCastle</title>
+        <link>http://localhost:1313/projects/daicastle/</link>
+        <pubDate>Wed, 18 Aug 2021 15:47:30 +0200</pubDate>
+        
+        <guid>http://localhost:1313/projects/daicastle/</guid>
+        <description>DaiCastle is a singleplayer, 100-player battle-royale game with a huge map, complex AI, inventory system, unlockable item system, replay system, and many more.
+This project was started in 2019, most of the core things were done back then such as the way the map is shown, and stored, hit-reg calculations, movements, but then I had to discontinue this project unfortunately.
+In 2021, I revisited the project, and started adding many new features, that now makes the game full.</description>
+      </item>
+    
+  </channel>
+</rss>
