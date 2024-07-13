@@ -8,6 +8,15 @@
     <language>en-us</language>
     <lastBuildDate>Tue, 30 Apr 2024 15:47:30 +0200</lastBuildDate><atom:link href="http://localhost:1313/projects/index.xml" rel="self" type="application/rss+xml" />
       <item>
+        <title>Travianer</title>
+        <link>http://localhost:1313/projects/travianer/</link>
+        <pubDate>Sat, 13 Jul 2024 15:47:30 +0200</pubDate>
+        
+        <guid>http://localhost:1313/projects/travianer/</guid>
+        <description>This content does not resize on smaller browser widths. Try using the fullscreen button below (after loading the game).Unity WebGL builds are not supported on mobile devices.start loadingMy cool game</description>
+      </item>
+    
+      <item>
         <title>Cell Wars</title>
         <link>http://localhost:1313/projects/cell-wars/</link>
         <pubDate>Tue, 07 Jun 2022 15:47:30 +0200</pubDate>

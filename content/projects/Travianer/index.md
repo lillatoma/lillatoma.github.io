@@ -8,8 +8,8 @@ draft = true
     gameTitle="My cool game"
     width="1024" 
     height="576"
-    buildURL="webgl/Travianer/Build" 
-    buildFileName="webgl"
+    buildURL="Travianer/Build" 
+    buildFileName="BuildWebGL"
     playerID=""  >}}
 
 
