@@ -5,7 +5,7 @@ draft = true
 +++
 
 {{< unity-webgl-player 
-    gameTitle="My cool game"
+    gameTitle="Travianer - A singleplayer Travian experience"
     width="1024" 
     height="576"
     buildURL="Travianer/Build" 

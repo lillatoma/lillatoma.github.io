@@ -28,9 +28,9 @@
             var buildUrl{{ $playerID | safeJS }} = "{{ $buildURL }}";
             var loaderUrl{{ $playerID | safeJS }} = buildUrl{{ $playerID | safeJS }} + "/{{ $buildFileName }}.loader.js";
             var config{{ $playerID | safeJS }} = {
-                dataUrl: buildUrl{{ $playerID | safeJS }} + "/{{ $buildFileName }}.data.br",
-                frameworkUrl: buildUrl{{ $playerID | safeJS }} + "/{{ $buildFileName }}.framework.js.br",
-                codeUrl: buildUrl{{ $playerID | safeJS }} + "/{{ $buildFileName }}.wasm.br",
+                dataUrl: buildUrl{{ $playerID | safeJS }} + "/{{ $buildFileName }}.data",
+                frameworkUrl: buildUrl{{ $playerID | safeJS }} + "/{{ $buildFileName }}.framework.js",
+                codeUrl: buildUrl{{ $playerID | safeJS }} + "/{{ $buildFileName }}.wasm",
                 streamingAssetsUrl: "StreamingAssets",
             };
 
