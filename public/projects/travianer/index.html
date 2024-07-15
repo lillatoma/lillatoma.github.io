@@ -103,7 +103,7 @@
       "inLanguage": "en",
       "datePublished": "2024-07-13",
       "dateModified": "2024-07-13",
-      "wordCount" : "36",
+      "wordCount" : "2921",
       "publisher": {
         "@type": "Person",
         "name": ""
@@ -256,6 +256,10 @@
 
 
 
+<p>This is a <strong>Unity game project</strong> made with Unity 2022.3.13f1. This project was done with the collaboration of Viktória Horváth, who helped in many graphical, and coding assets of the project.
+The project is based on the web browser, war strategy game, Travian by Travian Games GmbH. Assets are reused from the original Travian project, and we do not own any of them. They are the intellectual property of Travian Games GmbH.
+The game was originally made for PC, and this WebGL version below is not optimized, and some assets might have different scaling because of it. I recommend playing it in 1920x1080 fullscreen.
+Note: all other players in the game are controlled by bots.</p>
 <div class="webgl-player">
     <div id="-unity-browser-width-warning" class="unity-browser-width-warning">
         This content does not resize on smaller browser widths. Try using the fullscreen button below (after loading the game).
@@ -273,7 +277,7 @@
         </div>
         <div id="-unity-footer" class="unity-footer">
             <div id="-unity-fullscreen-button" class="unity-fullscreen-button"></div>
-            <div id="-unity-game-title" class="unity-game-title">Travianer - A singleplayer Travian experience</div>
+            <div id="-unity-game-title" class="unity-game-title"></div>
         </div>
         <script>
             var buildUrl = "Travianer\/Build";
@@ -326,6 +330,498 @@
         </script>
     </div>
 </div>
+
+
+
+
+
+
+
+
+
+  <h1 id="whats-in-the-game">What&rsquo;s in the game?</h1> 
+
+<p>Currently, the goal of the game is just build, and fight. There is no further goal, you can set whatever you want. To be the biggest player in the gameworld (that has bots), get medals, have the biggest army, destroy other bots, etc. You name it.</p>
+
+
+
+
+
+
+
+
+
+  <h2 id="buildings"><a class="anchor" href="#buildings" title='Anchor for: Buildings.'><svg aria-hidden="true"><use xlink:href="/img/bundle.min.ae45e7a9a0a65150dd900a58f35fe84d.svg#hashtag"/></svg></a> Buildings</h2> 
+
+<p>Most buildings from the original game exist and are functional, except Wonder of the World and Treasury. Buildings can be built if there is enough resource, which are produced by the resource fields in the outer village, the resource production bonus buildings in the inner village, the captured oases, and the hero. There is also a premium option which the player can activate to have bigger production. (It costs in game gold, which is free, don&rsquo;t worry.) It is advised to build resource production to as high as possible. Every building has a different purpose:</p>
+<ul>
+<li><strong>Woodcutter</strong>: increases lumber production</li>
+<li><strong>Clay Pit</strong>: increases clay production</li>
+<li><strong>Iron Mine</strong>: increases iron production</li>
+<li><strong>Cropland</strong>: increases crop production</li>
+<li><strong>Main Building</strong>: reduces building time</li>
+<li><strong>(Great) Warehouse</strong>: increases storage of lumber, clay, and iron.</li>
+<li><strong>(Great) Granary</strong>: increases storage of crop</li>
+<li><strong>Sawmill</strong>: increases lumber production (5% per level)</li>
+<li><strong>Brickyard</strong>: increases clay production (5% per level)</li>
+<li><strong>Iron Foundry</strong>: increases iron production (5% per level)</li>
+<li><strong>Grainmill</strong>: increases crop production (5% per level)</li>
+<li><strong>Bakery</strong>: increases crop production (5% per level)</li>
+<li><strong>Embassy</strong>: increases alliance player limit by 3 per level</li>
+<li><strong>Marketplace</strong>: increases the number of merchants that can carry resources to other villages</li>
+<li><strong>City Wall, Palisade, Earth Wall, Stone Wall, Makeshift Wall, Defensive Wall</strong>: increases the static defense of the town, and also increases the power of the defensive force inside</li>
+<li><strong>Cranny</strong>: hides an amount of resources from raiders</li>
+<li><strong>Palace</strong>: opens an expansion slot at 10, 15, 20, can train settlers &amp; commanders, adds the possibility to change capital</li>
+<li><strong>Residence</strong>: opens an expansion slot at 10, 20, can train settlers &amp; commanders</li>
+<li><strong>Command Center</strong>: opens an expansion slot at 10, 15, 20, can train settlers &amp; commanders (can only be built by Huns)</li>
+<li><strong>Rally Point</strong>: opens target options for catapults, shows the number of attackers if they are numbered below the level of the rally point</li>
+<li><strong>Barracks</strong>: can train infantry soldiers and infantry spies, the higher the level, the faster the training of troops</li>
+<li><strong>Academy</strong>: can research infantry and cavalry that are not yet researched</li>
+<li><strong>Tournament Square</strong>: increases movement speed of troops by 20% per level if the distance is over 20.</li>
+<li><strong>Smithy</strong>: can increase the power of researched troopers, the higher the smithy, the faster the upgrades are. Upgrades have levels, and smithy can only upgrade as high as its level.</li>
+<li><strong>Hero&rsquo;s Mansion</strong>: unlocks an oasis slot at 10, 15 and 20. Oases can be captured to increase production. Adventures spawn near villages that have hero&rsquo;s mansion (and the capital).</li>
+<li><strong>Town Hall</strong>: can run celebrations (small from level 1, large from level 10). The higher its level, the faster the celebrations are.</li>
+<li><strong>Stable</strong>: can train cavalry soldiers and cavalry spies, the higher the level, the faster the training of troops</li>
+<li><strong>Great Barracks and Great Stable</strong>: works the same as their &ldquo;non-great&rdquo; equivalents, but troops cost 3x as much</li>
+<li><strong>Workshop</strong>: can produce rams and catapults, the higher the level, the faster the training of troops</li>
+<li><strong>Trade Office</strong>: increases the capacity of merchants by 20% per level. (40% for Romans).</li>
+<li><strong>Horse Drinking Trough</strong>: Roman only building, increases training speed of cavalries, while decreasing their crop consumption.</li>
+<li><strong>Waterworks</strong>: Egyptian only building, increases production bonus of oases.</li>
+<li><strong>Trapper</strong>: Gauls only building, can produce traps that can capture attackers on the village.</li>
+<li><strong>Stonemason</strong>: Capital only building, increases building stability</li>
+<li><strong>Hospital</strong>: If the village has hospital, 40% of lost troops in battles become injured, and they can be healed in the hospital. (Healing costs the same as producing troops, but takes half as much time.)</li>
+<li><strong>Asclepeion</strong>: Hospital that can be built by Spartans only. The 40% injured ratio becomes 60%.</li>
+<li><strong>Brewery</strong>: Teuton and capital only building. Can run celebrations that increase the attack power of all troops.</li>
+</ul>
+
+
+
+
+
+
+
+
+
+  <h2 id="attacking-oases"><a class="anchor" href="#attacking-oases" title='Anchor for: Attacking oases:.'><svg aria-hidden="true"><use xlink:href="/img/bundle.min.ae45e7a9a0a65150dd900a58f35fe84d.svg#hashtag"/></svg></a> Attacking oases:</h2> 
+
+<p>The player can attack oases at any given time. Oases have a set of animals they spawn with, and they spawn a larger amount when the initial beginner&rsquo;s protection of the world ends. If they have been cleaned once, they will produce animals regularly. Killing animals gives resources to the hero&rsquo;s inventory, so it is a viable tactic to attack them, if you would gain more resources than what you used to train the lost troops. Oases also produce resources and have a capacity how much they can store, however they only start producing once they have been cleaned.
+Oases can be captured if the hero&rsquo;s mansion is big enough, and the oases have been cleaned from animals. For this to happen, the player has to attack it with hero.
+If the oasis attacked has been captured by a previous player, animals will not spawn there anymore, and the attacker will fight the village that the oasis belongs to (or rather the troops sent to the oasis.), and if the attacker robs resources, they are from that village. (Resources in the oasis are 10% of what the village has, and robbing the oasis robs directly from the village.)</p>
+
+
+
+
+
+
+
+
+
+  <h2 id="attacking-other-villages"><a class="anchor" href="#attacking-other-villages" title='Anchor for: Attacking other villages:.'><svg aria-hidden="true"><use xlink:href="/img/bundle.min.ae45e7a9a0a65150dd900a58f35fe84d.svg#hashtag"/></svg></a> Attacking other villages:</h2> 
+
+<p>When the beginner&rsquo;s protection of both players are over, they can attack each other. When an attack happens, the troops that have been sent by the attacker will fight with all troops that are in the defender&rsquo;s village. Raid attack means that if the attacker loses <code>n%</code> and the defender loses <code>m%</code>, then <code>n + m</code> will be <code>100%</code>. Normal attack or attack means that the fight goes on until either the attacker or the defender loses all their troops. These fights happen immediately. If the attacker has surviving troops, they can steal resources from the village, so it is a viable tactic to rob resources from players who don&rsquo;t defend them.
+In order to destroy wall and buildings in the village, or conquer them, the attack has to be normal (not raid).</p>
+
+
+
+
+
+
+
+
+
+  <h2 id="battle-simulation"><a class="anchor" href="#battle-simulation" title='Anchor for: Battle simulation:.'><svg aria-hidden="true"><use xlink:href="/img/bundle.min.ae45e7a9a0a65150dd900a58f35fe84d.svg#hashtag"/></svg></a> Battle simulation:</h2> 
+
+<p>Unfortunately, we didn&rsquo;t develop an ingame battle simulator yet. In order to simulate a battle, please use this site:
+<a href="http://travian.kirilloid.ru/warsim2.php">Kirilloid</a> (4.6 version)</p>
+
+
+
+
+
+
+
+
+
+  <h2 id="time-management-in-the-game"><a class="anchor" href="#time-management-in-the-game" title='Anchor for: Time management in the game:.'><svg aria-hidden="true"><use xlink:href="/img/bundle.min.ae45e7a9a0a65150dd900a58f35fe84d.svg#hashtag"/></svg></a> Time management in the game:</h2> 
+
+<p>In the game, time is static and is not going with real time. The player can manage their time and when they want to jump into the future (until a building built, training done, troop movement done, etc, or freely in the Events menu.) This is a unique mechanic that is not present in the original Travian game, and is done so the player can maximize their potential (by being second perfect at it).
+The events (building built, attacks, etc) that are scheduled to happen at a given time would fire if the given time is before the time jump ends. (So let&rsquo;s say, cropland builds at 02:00, but you jump until 05:00 where an attack happens, both events will be fired.)</p>
+
+
+
+
+
+
+
+
+
+  <h2 id="hero"><a class="anchor" href="#hero" title='Anchor for: Hero.'><svg aria-hidden="true"><use xlink:href="/img/bundle.min.ae45e7a9a0a65150dd900a58f35fe84d.svg#hashtag"/></svg></a> Hero</h2> 
+
+<p>The hero is a unique troop of every player, that can level up, and has points that can go on power, attack bonus, defense bonus and production. The hero starts with a set of 3 adventures, and will get more adventures overtime. The first 10 adventures have a fixed set of rewards, and adventures later will get rewards randomly. These rewards can be:</p>
+<ul>
+<li>resources (most common)</li>
+<li>silver (can be used in auctions)</li>
+<li>troops</li>
+<li>consumable items (ointments, cages, small bandages, bandages, tablets of law, books of wisdom, artwork and bucket)</li>
+<li>other items (helmets, armors, boots, weapons, utilities, and horses)</li>
+</ul>
+<p>It is possible to bid on auctions to get items from other players who are selling them. It is not possible to see the seller, however the highest bidder is always visible. Once the auction&rsquo;s timer go off, the highest bidder will receive the item, get their extra silver back, and the seller will get the final silver amount that was bid on the item.</p>
+
+
+
+
+
+
+
+
+
+  <h2 id="hero-items"><a class="anchor" href="#hero-items" title='Anchor for: Hero items.'><svg aria-hidden="true"><use xlink:href="/img/bundle.min.ae45e7a9a0a65150dd900a58f35fe84d.svg#hashtag"/></svg></a> Hero items</h2> 
+
+
+
+
+
+
+
+
+
+
+  <h3 id="helmets"><a class="anchor" href="#helmets" title='Anchor for: Helmets:.'><svg aria-hidden="true"><use xlink:href="/img/bundle.min.ae45e7a9a0a65150dd900a58f35fe84d.svg#hashtag"/></svg></a> Helmets:</h3> 
+
+<ul>
+<li><strong>Helmet of Regeneration (and other healing helmets)</strong>: increases healing speed of hero</li>
+<li><strong>Helmet of the Gladiator (and other cp helmets)</strong>: produces culture points</li>
+<li><strong>Helmet of Awareness (and other xp helmets)</strong>: increases experience gain of the hero</li>
+<li><strong>Helmet of the Mercenary (and other infantry helmets)</strong>: increases training speed of infantries where the hero is located</li>
+<li><strong>Helmet of the Cavalry (and other cavalry helmets)</strong>: increases training speed of cavalries where the hero is located</li>
+</ul>
+
+
+
+
+
+
+
+
+
+  <h3 id="armors"><a class="anchor" href="#armors" title='Anchor for: Armors:.'><svg aria-hidden="true"><use xlink:href="/img/bundle.min.ae45e7a9a0a65150dd900a58f35fe84d.svg#hashtag"/></svg></a> Armors:</h3> 
+
+<ul>
+<li><strong>Armor of Regeneration (and other healing armors)</strong>: increases healing speed of hero</li>
+<li><strong>Breastplate (and other power armors)</strong>: increases power of hero</li>
+<li><strong>Scale armor (and other scale armors)</strong>: increases healing speed of hero and decreases damage</li>
+<li><strong>Segmented armor (and other scale armors)</strong>: increases power of hero and decreases damage</li>
+</ul>
+
+
+
+
+
+
+
+
+
+  <h3 id="boots"><a class="anchor" href="#boots" title='Anchor for: Boots:.'><svg aria-hidden="true"><use xlink:href="/img/bundle.min.ae45e7a9a0a65150dd900a58f35fe84d.svg#hashtag"/></svg></a> Boots:</h3> 
+
+<ul>
+<li><strong>Boots of Regeneration (and other healing boots)</strong>: increases healing speed of the hero</li>
+<li><strong>Boots of the Mercenary (and other army boots)</strong>: increases travel speed of troops traveling with hero if the distance is over 20 fields</li>
+<li><strong>Spurs (and other speed boots)</strong>: increases travel speed of a mounted hero</li>
+</ul>
+
+
+
+
+
+
+
+
+
+  <h3 id="weapons"><a class="anchor" href="#weapons" title='Anchor for: Weapons:.'><svg aria-hidden="true"><use xlink:href="/img/bundle.min.ae45e7a9a0a65150dd900a58f35fe84d.svg#hashtag"/></svg></a> Weapons:</h3> 
+
+<ul>
+<li>Increases the power of the hero and attacking and defending power of all troops (mentioned in the description of the weapon) with the hero</li>
+</ul>
+
+
+
+
+
+
+
+
+
+  <h3 id="horses"><a class="anchor" href="#horses" title='Anchor for: Horses:.'><svg aria-hidden="true"><use xlink:href="/img/bundle.min.ae45e7a9a0a65150dd900a58f35fe84d.svg#hashtag"/></svg></a> Horses:</h3> 
+
+<ul>
+<li>Increases the travel speed of the hero</li>
+</ul>
+
+
+
+
+
+
+
+
+
+  <h3 id="utilites"><a class="anchor" href="#utilites" title='Anchor for: Utilites.'><svg aria-hidden="true"><use xlink:href="/img/bundle.min.ae45e7a9a0a65150dd900a58f35fe84d.svg#hashtag"/></svg></a> Utilites</h3> 
+
+<ul>
+<li><strong>Maps</strong>: increases the return speed of troops traveling with the hero</li>
+<li><strong>Shields</strong>: increases the power of the hero</li>
+<li><strong>Bags</strong>: increases capacity that troops can steal from enemy crannies (if they are with the hero)</li>
+<li><strong>Horns of the Natarian</strong>: currently does nothing. Later it will increase attack power against Natarians.</li>
+<li><strong>Standards</strong>: increases travel speed between alliance members (with hero)</li>
+<li><strong>Pennants</strong>: increases travel speed between own villages (with hero)</li>
+</ul>
+
+
+
+
+
+
+
+
+
+  <h2 id="quests"><a class="anchor" href="#quests" title='Anchor for: Quests.'><svg aria-hidden="true"><use xlink:href="/img/bundle.min.ae45e7a9a0a65150dd900a58f35fe84d.svg#hashtag"/></svg></a> Quests</h2> 
+
+<p>There are daily quests with a certain of set of rewards in the game, that can be collected daily based on a number of activities that give points.
+There are also tutorial quests, that include building a certain building or buildings to a certain level, and then can be collected later for hero experience and resources to the hero&rsquo;s inventory.
+Quests in the game currently are not related to any previous Travian task system. The amount of rewards grow overtime (on 1x, a week later 20% more rewards are added to make new player&rsquo;s get a fairer game).</p>
+
+
+
+
+
+
+
+
+
+  <h2 id="founding-and-conquering-new-villages"><a class="anchor" href="#founding-and-conquering-new-villages" title='Anchor for: Founding and Conquering new villages.'><svg aria-hidden="true"><use xlink:href="/img/bundle.min.ae45e7a9a0a65150dd900a58f35fe84d.svg#hashtag"/></svg></a> Founding and Conquering new villages</h2> 
+
+<p>When the player unlocks a new Expansion slot in any of their villages, and has enough Culture points (that are produced by buildings and town hall celebrations) for a new village, they can:</p>
+<ul>
+<li>settle a new village to any location with 3 settlers and starting resources of a village (750 of each by default). The settling (in this game takes 8 hours on 1x.) happens on a first gets, first wins basis, so if someone settles to a place, and gets beaten by another player, their settlers will go home with no new village.</li>
+<li>conquer a village from another player. In order for it to happen, the player has to lower the loyalty of a non-capital village to 0, with normal attacking with commanders. Once the loyalty becomes 0, the new owner of the village will be the attacker.</li>
+</ul>
+
+
+
+
+
+
+
+
+
+  <h2 id="alliances"><a class="anchor" href="#alliances" title='Anchor for: Alliances.'><svg aria-hidden="true"><use xlink:href="/img/bundle.min.ae45e7a9a0a65150dd900a58f35fe84d.svg#hashtag"/></svg></a> Alliances</h2> 
+
+<p>The player can create a new alliance or join an existing one if they get an invitation. An alliance comes with a number of advantages:</p>
+<ul>
+<li>You can get help from alliance members and organize attack calls on targeted enemies</li>
+<li>There are certain alliance bonuses that can help develop faster</li>
+</ul>
+<p>Alliance bonuses:</p>
+<ul>
+<li><strong>Recruitment</strong>: makes training speed of troops faster</li>
+<li><strong>Philosophy</strong>: increases passive culture point production (helps with getting to the next culture point requirement faster)</li>
+<li><strong>Metallurgy</strong>: increases attack and defense power of all units</li>
+<li><strong>Commerce</strong>: increases merchant capacity</li>
+</ul>
+
+
+
+
+
+
+
+
+
+  <h2 id="medals-and-top-10-players-alliances-of-the-week"><a class="anchor" href="#medals-and-top-10-players-alliances-of-the-week" title='Anchor for: Medals and top 10 players (alliances) of the week.'><svg aria-hidden="true"><use xlink:href="/img/bundle.min.ae45e7a9a0a65150dd900a58f35fe84d.svg#hashtag"/></svg></a> Medals and top 10 players (alliances) of the week</h2> 
+
+<p>Each player gets points for certain actions in the game:</p>
+<ul>
+<li>Climbers: ranks gained in population</li>
+<li>PVP: troops killed in attack</li>
+<li>PVE: animals killed in oases</li>
+<li>Defensive: troops killed in defense</li>
+<li>Robbers: resources stolen from other players and oases (and animals killed)</li>
+</ul>
+
+
+
+
+
+
+
+
+
+  <h2 id="settings"><a class="anchor" href="#settings" title='Anchor for: Settings.'><svg aria-hidden="true"><use xlink:href="/img/bundle.min.ae45e7a9a0a65150dd900a58f35fe84d.svg#hashtag"/></svg></a> Settings</h2> 
+
+<p>When making a new game world, the player can set certain settings to their liking.</p>
+
+
+
+
+
+
+
+
+
+  <h3 id="quick-settings"><a class="anchor" href="#quick-settings" title='Anchor for: Quick settings:.'><svg aria-hidden="true"><use xlink:href="/img/bundle.min.ae45e7a9a0a65150dd900a58f35fe84d.svg#hashtag"/></svg></a> Quick settings:</h3> 
+
+<p>Quick settings quickly set up the world to be a certain size and speed. Clicking on these buttons will override any settings made in the other tabs.</p>
+
+
+
+
+
+
+
+
+
+  <h3 id="game-settings"><a class="anchor" href="#game-settings" title='Anchor for: Game settings:.'><svg aria-hidden="true"><use xlink:href="/img/bundle.min.ae45e7a9a0a65150dd900a58f35fe84d.svg#hashtag"/></svg></a> Game settings:</h3> 
+
+<ul>
+<li><strong>Production speed</strong>: increases the production speed of resources and culture points</li>
+<li><strong>Building speed</strong>: increases the building speed of buildings (reduces building time)</li>
+<li><strong>Population consumption</strong>: crop consumption multiplier of population</li>
+<li><strong>Army consumption</strong>: crop consumption multiplier of troops</li>
+<li><strong>Training speed</strong>: increases the training speed of troops (reduces training time)</li>
+<li><strong>Celebration speed</strong>: decreases the time celebrations take</li>
+<li><strong>Celebration CP Multiplier</strong>: increases the culture point amount a celebration gives</li>
+<li><strong>Animal speeds</strong>: increases the speed of animal spawns</li>
+<li><strong>Travel speed</strong>: increases the travel speed of troopers and merchants</li>
+<li><strong>Merchant carriage</strong>: increases the capacity of merchants</li>
+<li><strong>Hero regen speed</strong>: increases the regeneration speed of the hero</li>
+<li><strong>Village founding speed</strong>: decreases the village founding time</li>
+<li><strong>Quest bonus (% / week)</strong>: increases the % extra rewards the tutorial quests give. If it is 20%, rewards will increase by 20% every week.</li>
+</ul>
+
+
+
+
+
+
+
+
+
+  <h3 id="world-settings"><a class="anchor" href="#world-settings" title='Anchor for: World settings:.'><svg aria-hidden="true"><use xlink:href="/img/bundle.min.ae45e7a9a0a65150dd900a58f35fe84d.svg#hashtag"/></svg></a> World settings:</h3> 
+
+<ul>
+<li><strong>Map size (X)</strong>: defines the width of the map. Be careful with large numbers as it can make the game slower.</li>
+<li><strong>Map size (Y)</strong>: defines the height of the map. Be careful with large numbers as it can make the game slower.</li>
+<li><strong>Center dark radius</strong>: defines the gray area in the middle of the map</li>
+<li><strong>Center empty radius</strong>: defines the radius where no players spawn</li>
+<li><strong>Oasis spawn rate</strong>: Defines the chance of a tile to become oasis</li>
+<li><strong>50% spawns outside of dark</strong>: defines if +50% wood, clay and iron oasis can spawn outside the gray zone.</li>
+<li><strong>Animal kill wood, clay, iron, wheat</strong>: defines the amount of resources an animal kill grants</li>
+</ul>
+
+
+
+
+
+
+
+
+
+  <h3 id="player-settings"><a class="anchor" href="#player-settings" title='Anchor for: Player settings:.'><svg aria-hidden="true"><use xlink:href="/img/bundle.min.ae45e7a9a0a65150dd900a58f35fe84d.svg#hashtag"/></svg></a> Player settings:</h3> 
+
+<ul>
+<li><strong>Player count</strong>: defines the amount of bot controlled players</li>
+<li><strong>AI control chance</strong>: defines the chance that a bot will be controlled or idle</li>
+<li><strong>Easy chance</strong>: defines the entries of easy bots for generating bot controllers</li>
+<li><strong>Medium chance</strong>: defines the entries of medium bots for generating bot controllers</li>
+<li><strong>Hard chance</strong>: defines the entries of hard bots for generating bot controllers</li>
+<li><strong>Beginner&rsquo;s protection days</strong>: defines the length of beginner&rsquo;s protection in days</li>
+<li><strong>Protection extend days</strong>: defines the length that the beginner&rsquo;s protection can be extended in days</li>
+<li><strong>Default wood, clay, iron, wheat</strong>: defines the default resources each village spawns with (and needed to found new villages)</li>
+<li><strong>Player register endtime (days)</strong>: defines the latest time a player can register</li>
+<li><strong>Default storage (warehouse, granary)</strong>: defines the default storage a village has</li>
+<li><strong>Storage multiplier</strong>: multiplies the storage amounts</li>
+<li><strong>Keeps default storage</strong>: defines if the default storage will be kept if a storage building is built</li>
+<li><strong>Tribes</strong>: it is possible to allow/disallow certain tribes, by default all are enabled. The numbers are the entries for the bots. (Higher means higher amount of players using the tribe)</li>
+</ul>
+
+
+
+
+
+
+
+
+
+  <h2 id="saving-and-loading"><a class="anchor" href="#saving-and-loading" title='Anchor for: Saving and loading.'><svg aria-hidden="true"><use xlink:href="/img/bundle.min.ae45e7a9a0a65150dd900a58f35fe84d.svg#hashtag"/></svg></a> Saving and loading</h2> 
+
+<p>It is possible to save games and reload them.</p>
+<ul>
+<li><strong>Saving</strong>: It is possible to save the game clicking in the Hero&rsquo;s menu (top left corner), and the button in the top right corner.</li>
+<li><strong>Autosaving</strong>: In the same menu, it is possible to make the game automatically save.</li>
+<li><strong>Loading</strong>: You can reload any preiously saved game in the <strong>Load previous game</strong> menu. It is also possible to delete previous games that are not needed anymore.</li>
+</ul>
+
+
+
+
+
+
+
+
+
+  <h2 id="bots"><a class="anchor" href="#bots" title='Anchor for: Bots.'><svg aria-hidden="true"><use xlink:href="/img/bundle.min.ae45e7a9a0a65150dd900a58f35fe84d.svg#hashtag"/></svg></a> Bots</h2> 
+
+<p>Bots are generated for every player that is not controlled by uh, the player.
+They can have difficulties that define how well and how fast they play, and what actions they take</p>
+<ul>
+<li><strong>Throwaway</strong>: idle bots that just build their village without doing anything</li>
+<li><strong>Easy</strong>: easy bots</li>
+<li><strong>Medium</strong>: medum bots</li>
+<li><strong>Hard</strong>: medum bots</li>
+</ul>
+<p>The actions bot can do:</p>
+<ul>
+<li>Build buildings</li>
+<li>Make troops</li>
+<li>Look for farmable players</li>
+<li>Move hero to other villages</li>
+<li>Found new villages</li>
+<li>Conquer villages</li>
+<li>Occupy oases for villages</li>
+<li>Send resources to other villages</li>
+<li>Send resources to other players in the same alliance (if they are tech)</li>
+<li>Build traps if they have Trapper</li>
+<li>Change capital to a cropepr</li>
+<li>Claim daily and tutorial quests</li>
+<li>Manage farmlists</li>
+<li>Attack oases if they seem profitable (with hero only or hero with troops, or troops only)</li>
+<li>Attack empty oases with low troop numbers to farm them</li>
+<li>Get defenses if a village is attacked (also ask for defense from the alliance)</li>
+<li>Heal troops in the hospital / asclepeion</li>
+<li>Buy and sell and items in auctions</li>
+<li>Use hero gear</li>
+<li>Capture animals with cages</li>
+<li>Research and upgrade units</li>
+<li>Run celebrations</li>
+<li>Send hero on adventures</li>
+<li>Spy around to look for farms</li>
+<li>Revive hero if its dead</li>
+</ul>
+
+
+
+
+
+
+
+
+
+  <h2 id="cheats"><a class="anchor" href="#cheats" title='Anchor for: Cheats.'><svg aria-hidden="true"><use xlink:href="/img/bundle.min.ae45e7a9a0a65150dd900a58f35fe84d.svg#hashtag"/></svg></a> Cheats</h2> 
+
+<p>Automatically cheats are enabled.
+The console can be accessed by pressing F2.
+There are a number of cheat commands the player can use that will affect the currently controlled player, or just paste information to the console.
+Unfortunately, I don&rsquo;t want to discuss what cheats do and how, so I will leave them to you to experiment. :)</p>
 
 
 
