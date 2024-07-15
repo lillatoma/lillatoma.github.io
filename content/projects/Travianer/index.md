@@ -220,7 +220,7 @@ Quick settings quickly set up the world to be a certain size and speed. Clicking
 
 It is possible to save games and reload them.
 - **Saving**: It is possible to save the game clicking in the Hero's menu (top left corner), and the button in the top right corner.
-- **Autosaving**: In the same menu, it is possible to make the game automatically save.
+- **Autosaving**: In the same menu, it is possible to make the game automatically save. Autosaves are saved under the name `autosave`.
 - **Loading**: You can reload any preiously saved game in the **Load previous game** menu. It is also possible to delete previous games that are not needed anymore.
 
 ## Bots
@@ -265,4 +265,14 @@ Automatically cheats are enabled.
 The console can be accessed by pressing F2.
 There are a number of cheat commands the player can use that will affect the currently controlled player, or just paste information to the console.
 Unfortunately, I don't want to discuss what cheats do and how, so I will leave them to you to experiment. :)
+
+## Future updates
+- Treasury
+- Artifacts
+- Artifact spawns
+- Default natar villages
+- Wonder of the World
+- Win condition
+- Bugfixes
+- Quality of life changes
 
