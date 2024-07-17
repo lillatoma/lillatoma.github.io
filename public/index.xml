@@ -57,6 +57,16 @@ To briefly display, what the game has to offer, here are a few links:</descripti
       </item>
     
       <item>
+        <title>Pumpkin Attack</title>
+        <link>http://localhost:1313/projects/pumpkin-attack/</link>
+        <pubDate>Sun, 31 Oct 2021 15:47:30 +0200</pubDate>
+        
+        <guid>http://localhost:1313/projects/pumpkin-attack/</guid>
+        <description>This game was made as a challenge to myself. I wanted to see if I could create a game in a single day, more specifically in 8 hours. Unfortunately I failed, because I still needed an extra 4-ish hours to finish this project.
+The game is themed on Halloween day, where a kid is left out in a small suburban neighborhood, and he has to collect baskets of candies. However, he is attacked by zombies, witches and jumping pumpkins.</description>
+      </item>
+    
+      <item>
         <title>DaiCastle</title>
         <link>http://localhost:1313/projects/daicastle/</link>
         <pubDate>Wed, 18 Aug 2021 15:47:30 +0200</pubDate>
