@@ -1,5 +1,5 @@
 +++
-title = 'Travianer'
+title = 'Travianer - 1.1'
 date = 2024-07-15T15:47:30+02:00
 draft = true
 +++
@@ -17,8 +17,10 @@ The game was originally made for PC, and this WebGL version below is not optimiz
     width="1024" 
     height="576"
     buildURL="Travianer/Build" 
-    buildFileName="BuildWebGL"
+    buildFileName="BuildWebGL2"
     playerID=""  >}}
+
+To play previous versions, check out this link: [Previous versions](/travianerprev/).	
 
 # What's in the game?
 

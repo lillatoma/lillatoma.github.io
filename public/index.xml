@@ -8,11 +8,20 @@
     <language>en-us</language>
     <lastBuildDate>Tue, 30 Apr 2024 15:47:30 +0200</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
       <item>
-        <title>Travianer</title>
+        <title>Travianer - 1.1</title>
         <link>http://localhost:1313/projects/travianer/</link>
         <pubDate>Mon, 15 Jul 2024 15:47:30 +0200</pubDate>
         
         <guid>http://localhost:1313/projects/travianer/</guid>
+        <description>This is a Unity game project made with Unity 2022.3.13f1. This project was done with the collaboration of Viktória Horváth, who helped in many graphical, and coding assets of the project. The project is based on the web browser, war strategy game, Travian by Travian Games GmbH. Assets are reused from the original Travian project, and we do not own any of them. They are the intellectual property of Travian Games GmbH.</description>
+      </item>
+    
+      <item>
+        <title>Travianer - Version 1.0</title>
+        <link>http://localhost:1313/travianerprev/1.0/</link>
+        <pubDate>Mon, 15 Jul 2024 15:47:30 +0200</pubDate>
+        
+        <guid>http://localhost:1313/travianerprev/1.0/</guid>
         <description>This is a Unity game project made with Unity 2022.3.13f1. This project was done with the collaboration of Viktória Horváth, who helped in many graphical, and coding assets of the project. The project is based on the web browser, war strategy game, Travian by Travian Games GmbH. Assets are reused from the original Travian project, and we do not own any of them. They are the intellectual property of Travian Games GmbH.</description>
       </item>
     
@@ -32,6 +41,15 @@
         
         <guid>http://localhost:1313/posts/1-settingup/</guid>
         <description>Setting up this website wasn&amp;rsquo;t practically difficult. I was recommended the static website builder tool, called Hugo, which essentially makes static .html files from Markdown files. What could be hard in that, right? Well, writing the .md files are no trouble. However, maybe I did something wrong during the process of making this site, but I encountered a few issues, which I would like to share, in hopes, that you are also reading this, looking through the web to find a solution to your problem.</description>
+      </item>
+    
+      <item>
+        <title>Welcome to my website</title>
+        <link>http://localhost:1313/posts/</link>
+        <pubDate>Tue, 30 Apr 2024 15:47:30 +0200</pubDate>
+        
+        <guid>http://localhost:1313/posts/</guid>
+        <description>My projects Test </description>
       </item>
     
       <item>
